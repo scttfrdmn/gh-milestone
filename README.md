@@ -1,6 +1,13 @@
 # gh-milestone
 
-A GitHub CLI extension for comprehensive milestone management.
+[![GitHub Release](https://img.shields.io/github/v/release/scttfrdmn/gh-milestone)](https://github.com/scttfrdmn/gh-milestone/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/scttfrdmn/gh-milestone)](https://go.dev/)
+[![License](https://img.shields.io/github/license/scttfrdmn/gh-milestone)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/scttfrdmn/gh-milestone?style=social)](https://github.com/scttfrdmn/gh-milestone)
+
+> A GitHub CLI extension for comprehensive milestone management.
+
+**No more `gh api` workarounds!** Manage GitHub milestones with intuitive commands, beautiful formatting, and full CRUD operations.
 
 ## Why This Extension?
 
