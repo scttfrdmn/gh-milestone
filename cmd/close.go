@@ -38,7 +38,14 @@ func runClose(cmd *cobra.Command, args []string) error {
 		milestoneNumber = milestone.Number
 	}
 
+	// Get the existing milestone to retrieve its title
+	existingMilestone, err := client.GetMilestone(milestoneNumber)
+	if err != nil {
+		return err
+	}
+
 	input := api.MilestoneInput{
+		Title: existingMilestone.Title,
 		State: "closed",
 	}
 
