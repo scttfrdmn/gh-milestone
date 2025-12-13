@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/scttfrdmn/gh-milestone/cmd"
+	"github.com/scttfrdmn/gh-milestone-manager/cmd"
 )
 
 func main() {

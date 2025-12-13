@@ -1,4 +1,4 @@
-module github.com/scttfrdmn/gh-milestone
+module github.com/scttfrdmn/gh-milestone-manager
 
 go 1.25.3
 

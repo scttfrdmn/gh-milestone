@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/scttfrdmn/gh-milestone/pkg/api"
+	"github.com/scttfrdmn/gh-milestone-manager/pkg/api"
 	"github.com/spf13/cobra"
 )
 

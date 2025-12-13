@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/scttfrdmn/gh-milestone/pkg/api"
+	"github.com/scttfrdmn/gh-milestone-manager/pkg/api"
 )
 
 // FormatMilestoneTable formats milestones as a table

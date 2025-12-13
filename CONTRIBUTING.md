@@ -1,14 +1,14 @@
-# Contributing to gh-milestone
+# Contributing to gh-milestone-manager
 
-Thank you for your interest in contributing! This document provides guidelines for contributing to gh-milestone.
+Thank you for your interest in contributing! This document provides guidelines for contributing to gh-milestone-manager.
 
 ## Getting Started
 
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/gh-milestone.git
-   cd gh-milestone
+   git clone https://github.com/YOUR-USERNAME/gh-milestone-manager.git
+   cd gh-milestone-manager
    ```
 3. **Install dependencies**:
    ```bash
@@ -100,7 +100,7 @@ Follow [Conventional Commits](https://www.conventionalcommits.org/):
 ## Project Structure
 
 ```
-gh-milestone/
+gh-milestone-manager/
 ├── main.go              # Entry point
 ├── cmd/                 # Command implementations
 │   ├── create.go
@@ -170,9 +170,9 @@ Maintainers handle releases:
 
 ## Getting Help
 
-- **Questions?** Open a [Discussion](https://github.com/scttfrdmn/gh-milestone/discussions)
-- **Bug?** Open an [Issue](https://github.com/scttfrdmn/gh-milestone/issues/new?template=bug_report.md)
-- **Feature idea?** Open an [Issue](https://github.com/scttfrdmn/gh-milestone/issues/new?template=feature_request.md)
+- **Questions?** Open a [Discussion](https://github.com/scttfrdmn/gh-milestone-manager/discussions)
+- **Bug?** Open an [Issue](https://github.com/scttfrdmn/gh-milestone-manager/issues/new?template=bug_report.md)
+- **Feature idea?** Open an [Issue](https://github.com/scttfrdmn/gh-milestone-manager/issues/new?template=feature_request.md)
 
 ## Code of Conduct
 

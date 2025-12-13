@@ -1,9 +1,9 @@
-# gh-milestone
+# gh-milestone-manager
 
-[![GitHub Release](https://img.shields.io/github/v/release/scttfrdmn/gh-milestone)](https://github.com/scttfrdmn/gh-milestone/releases)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/scttfrdmn/gh-milestone)](https://go.dev/)
-[![License](https://img.shields.io/github/license/scttfrdmn/gh-milestone)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/scttfrdmn/gh-milestone?style=social)](https://github.com/scttfrdmn/gh-milestone)
+[![GitHub Release](https://img.shields.io/github/v/release/scttfrdmn/gh-milestone-manager)](https://github.com/scttfrdmn/gh-milestone-manager/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/scttfrdmn/gh-milestone-manager)](https://go.dev/)
+[![License](https://img.shields.io/github/license/scttfrdmn/gh-milestone-manager)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/scttfrdmn/gh-milestone-manager?style=social)](https://github.com/scttfrdmn/gh-milestone-manager)
 
 > A GitHub CLI extension for comprehensive milestone management.
 
@@ -25,7 +25,7 @@ The GitHub CLI doesn't provide native milestone commands, requiring users to use
 ## Installation
 
 ```bash
-gh extension install scttfrdmn/gh-milestone
+gh extension install scttfrdmn/gh-milestone-manager
 ```
 
 ## Quick Start
@@ -125,8 +125,8 @@ gh milestone delete 1 --yes  # Skip confirmation
 ### Local Installation
 
 ```bash
-git clone https://github.com/scttfrdmn/gh-milestone.git
-cd gh-milestone
+git clone https://github.com/scttfrdmn/gh-milestone-manager.git
+cd gh-milestone-manager
 go build
 gh extension install .
 ```
@@ -157,7 +157,7 @@ GOOS=windows GOARCH=amd64 go build -o gh-milestone-windows-amd64.exe
 ## Architecture
 
 ```
-gh-milestone/
+gh-milestone-manager/
 ├── main.go              # Entry point and CLI setup
 ├── cmd/                 # Command implementations
 │   ├── create.go

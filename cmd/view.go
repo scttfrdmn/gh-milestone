@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/scttfrdmn/gh-milestone/pkg/api"
-	"github.com/scttfrdmn/gh-milestone/pkg/format"
+	"github.com/scttfrdmn/gh-milestone-manager/pkg/api"
+	"github.com/scttfrdmn/gh-milestone-manager/pkg/format"
 	"github.com/spf13/cobra"
 )
 
