@@ -9,6 +9,15 @@
 
 **No more `gh api` workarounds!** Manage GitHub milestones with intuitive commands, beautiful formatting, and full CRUD operations.
 
+## Features
+
+✨ **Full CRUD Operations** - Create, read, update, and delete milestones
+📊 **Beautiful Formatting** - Table and JSON output with progress indicators
+🔍 **Flexible Queries** - Find milestones by number or title
+📅 **Due Date Management** - Set and update milestone deadlines
+🎯 **State Management** - Quick close/reopen commands
+🔄 **Multi-Repository** - Work across different repos with `--repo` flag
+
 ## Why This Extension?
 
 The GitHub CLI doesn't provide native milestone commands, requiring users to use raw REST API calls for all milestone operations. This extension provides intuitive, full-featured milestone management.
@@ -17,6 +26,22 @@ The GitHub CLI doesn't provide native milestone commands, requiring users to use
 
 ```bash
 gh extension install scttfrdmn/gh-milestone
+```
+
+## Quick Start
+
+```bash
+# List all open milestones
+gh milestone list
+
+# Create a new milestone
+gh milestone create --title "v1.0.0" --due-date "2025-12-31"
+
+# View milestone details
+gh milestone view 1
+
+# Close a milestone
+gh milestone close 1
 ```
 
 ## Commands
